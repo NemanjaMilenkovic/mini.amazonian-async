@@ -53,6 +53,7 @@ describe("Review Builder", () => {
 
     // Excercise
     const actual = await reviewBuilder.buildReviewsAsyncAwait();
+    console.log("actual -------", actual);
 
     // Assert
     expect(actual).to.deep.equal(expected);
